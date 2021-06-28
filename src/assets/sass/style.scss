@@ -1,0 +1,73 @@
+@import "vars";
+
+
+/* Default styles */
+body {
+    margin: 0;
+
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    @media (max-width: 767px){
+        padding: 0 30px;
+    }
+}
+
+.header {
+    border-bottom: 1px solid #1c1c1c;
+
+    position: relative;
+
+    @media (max-width: 767px) {
+        height: 50px;
+        
+        background: rgba(0, 0, 0, .85);
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Blocks */
+@import "blocks/nav";
+@import "blocks/intro";
+@import "blocks/form";
+@import "blocks/experience";
+@import "blocks/js";
+@import "blocks/about";

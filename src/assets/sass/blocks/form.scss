@@ -1,0 +1,70 @@
+.form {
+    width: 100%;
+    max-width: 520px;
+
+    margin-top: 50px;
+
+    margin: 50px auto 0;
+
+    &__group{
+        margin-top: 25px;
+
+        &:nth-child(2){
+            max-width: 320px;
+            margin: 25px auto 0;
+
+            &option{
+                color: red;
+            }
+        }
+    }
+
+}
+
+.input {
+    display: block;
+    width: 100%;
+
+    padding: 18px;
+
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+
+    &::placeholder {
+        font-size: 24px;
+        color: #c8c8c8;
+        text-align: center;
+
+        @media (max-width: 320px) {
+            font-size: 16px;
+        }
+    }
+
+    &__option {
+        padding: 7px;
+
+        color: #435993;
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+
+    }
+
+}
+
+.select {
+
+    display: block;
+    width: 100%;
+
+    padding: 15px;
+
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+
+    color: #c8c8c8;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+
+}

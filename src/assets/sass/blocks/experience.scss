@@ -1,0 +1,41 @@
+.experience {
+    text-align: center;
+
+    &__icon {
+        width: 47px;
+        height: 47px;
+
+        margin-top: 70px;
+
+        fill: #a4a4a4;
+    }
+
+    &__title {
+        margin-top: 30px;
+
+        font-weight: 300;
+        font-size: 30px;
+    }
+
+    &__group {
+        margin-top: 50px;
+
+        display: flex;
+        justify-content: space-between;
+
+
+        @media (max-width: 575px){
+            flex-wrap: wrap;
+            
+        }
+
+        @media (max-width: 320px){
+            margin-left: 20%;
+        }
+    }
+
+    &__item {
+        margin-top: 15px;
+    }
+
+}

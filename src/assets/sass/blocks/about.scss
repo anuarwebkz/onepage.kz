@@ -1,0 +1,55 @@
+.about {
+    margin-top: 80px;
+    
+    text-align: center;
+
+    &__title {
+        margin-top: 30px;
+
+        font-weight: 300;
+        font-size: 30px;
+    }
+
+    &__subtitle {
+        max-width: 520px;
+        margin: 25px auto 0;
+
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    &__form {
+        margin: 40px auto 0;
+    }
+
+    &__area {
+        padding: 20px;
+
+        width: 100%;
+        max-width: 520px;
+        min-height: 180px;
+
+        border: 1px solid #e5e5e5;
+        border-radius: 5px;
+
+        &::placeholder {
+            font-weight: 400;
+            font-size: 20px;
+            color: #c8c8c8;
+        }
+
+    }
+
+    &__btn {
+        margin: 70px auto 70px;
+        padding: 15px 30px;
+        display: block;
+
+        border: none;
+        border-radius: 10px;
+
+        background: #435993;
+        color: #fff;
+    }
+}
+
